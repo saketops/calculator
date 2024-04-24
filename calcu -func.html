@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calcu</title>
+</head>
+
+<body>
+  <p>
+    <button onclick="
+  calcu+='7';
+  calc();">7
+    </button>
+    <button onclick="
+  calcu+='8';
+  calc();">8
+    </button>
+    <button onclick="
+  calcu+='9';
+  calc();">9
+    </button>
+    <button onclick="
+  calcu+=' / ';
+  calc();">/
+    </button>
+  </p>
+  <p>
+
+    <button onclick="
+  calcu+='4';
+  calc();">4
+    </button>
+    <button onclick="
+  calcu+='5';
+  calc();">5
+    </button>
+    <button onclick="
+  calcu+='6';
+  calc();">6
+    </button>
+    <button onclick="
+  calcu+=' * ';
+  calc();">*
+    </button>
+  </p>
+  <p>
+
+    <button onclick="
+  calcu+='1';
+  calc();">1
+    </button>
+    <button onclick="
+  calcu+='2';
+  calc();">2
+    </button>
+    <button onclick="
+  calcu+='3';
+  calc();">3
+    </button>
+    <button onclick="
+  calcu+=' - ';
+  calc();">-
+    </button>
+  </p>
+  <p>
+
+    <button onclick="
+  calcu+='0';
+  calc();">0
+    </button>
+    <button onclick="
+  calcu+='.';
+  calc();">.
+    </button>
+    <button onclick="
+  calcu=eval(calcu);
+  calc();">=
+    </button>
+    <button onclick="
+  calcu+=' + ';
+  calc();">+
+    </button>
+
+</body>
+<script>
+  let calcu = "";
+  function calc() {
+    console.log(calcu);
+  }
+
+</script>
+
+
+</html>
